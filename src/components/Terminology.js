@@ -14,7 +14,10 @@ const Terminology = () => {
 
 			{/* carousel  */}
 			<div className="container-fluid">
-				<Carousel style={{ width: "50%" }}>
+				<Carousel
+					style={{ width: "50%" }}
+					className="shadow-lg p-3 mb-5 bg-white rounded h-100"
+				>
 					{terms.map((term, index) => {
 						return (
 							<Carousel.Item
@@ -24,7 +27,7 @@ const Terminology = () => {
 							>
 								<img
 									// style={{ width: "500px", height: "400px !important" }}
-									style={{ height: "400px" }}
+									style={{ height: "400px", opacity: 0.8 }}
 									className=" d-block w-100"
 									src={term.image}
 									alt="First slide"

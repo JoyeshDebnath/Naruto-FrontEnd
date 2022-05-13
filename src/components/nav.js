@@ -30,6 +30,15 @@ const nav = () => {
 								src="https://img.icons8.com/color/48/000000/sharingan.png"
 							/>
 						</Nav.Link>
+						<Nav.Link href="/characters">
+							<img
+								className="nav-image"
+								src="https://img.icons8.com/color/48/000000/boruto-uzumaki.png"
+							/>
+						</Nav.Link>
+						<Nav.Link href="/gallery">
+							<img className="nav-image" src="" />
+						</Nav.Link>
 					</Nav>
 				</Container>
 			</Navbar>
